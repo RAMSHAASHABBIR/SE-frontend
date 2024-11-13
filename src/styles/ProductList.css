@@ -1,0 +1,86 @@
+.product-list {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  text-align: left; /* Align text to left for better readability */
+}
+
+.product-item h3 {
+  color: #333;
+  font-size: 20px;
+  margin: 0;
+}
+
+.product-item p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Add a section for the product form */
+.product-form {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.product-form input {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-form button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.product-item button {
+  padding: 8px 16px;
+  font-size: 14px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Edit button */
+.product-item button.edit-btn {
+  background-color: #ff9800; /* Orange for edit */
+  color: white;
+}
+
+.product-item button.edit-btn:hover {
+  background-color: #fb8c00; /* Darker orange on hover */
+}
+
+/* Delete button */
+.product-item button.delete-btn {
+  background-color: #f44336; /* Red for delete */
+  color: white;
+}
+
+.product-item button.delete-btn:hover {
+  background-color: #e53935; /* Darker red on hover */
+}
